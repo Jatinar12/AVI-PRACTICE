@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style type="text/css">
+        body {
+            font-family: 'Noto Sans' , sans-serif;
+        }
+    </style>
+
+</head>
+<body>
+    <h2> Json Data</h2>
+    <p id="data"></p>
+    <script type="text/javascript">
+        fetch('./data.json')
+        .then(function (response) {
+            return response.json();
+        })
+        .then(function(data) {
+            for(var i=0; i<data.length; i++) {
+                document.getElementById("data").innerHTML += 
+                data[i].id + "=>" + data[i].firstName+ "" +data[i].lastName+ "<br />";
+            }
+        })
+    </script>
+    
+</body>
+</html>
