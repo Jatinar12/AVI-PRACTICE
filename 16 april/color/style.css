@@ -1,0 +1,50 @@
+div{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+
+
+
+.btn{
+    position: relative;
+    align-items: center;
+    padding: 10px 20px;
+    
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+
+
+.btn1{
+    position: relative;
+    align-items: center;
+    padding: 10px 20px;
+    
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+
+.btn2{
+    position: relative;
+    align-items: center;
+    padding: 10px 20px;
+    
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+
+.btn3{
+    position: relative;
+    align-items: center;
+    padding: 10px 20px;
+    
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+

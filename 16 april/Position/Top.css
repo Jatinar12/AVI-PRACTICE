@@ -1,0 +1,11 @@
+.test{
+    position: absolute;
+    top: 40%;
+    right: 30%;
+   left: 40%;
+    bottom: 50%;
+}
+
+p{
+    font-size: 40px;
+}
